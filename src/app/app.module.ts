@@ -8,6 +8,9 @@ import { AssignmentComp2Component } from './assignment-comp2/assignment-comp2.co
 import {AssignmentComp1Component} from './assignmentComp1/assignmentComp1.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { FormsModule } from '@angular/forms';
+import { UsernameTaskComponent } from './username-task/username-task.component';
+
 
 @NgModule({
   declarations: [
@@ -17,10 +20,12 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
     AssignmentComp2Component,
     AssignmentComp1Component,
     WarningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    UsernameTaskComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
