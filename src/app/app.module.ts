@@ -10,6 +10,7 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { FormsModule } from '@angular/forms';
 import { UsernameTaskComponent } from './username-task/username-task.component';
+import { PasswordComponent } from './password/password.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { UsernameTaskComponent } from './username-task/username-task.component';
     AssignmentComp1Component,
     WarningAlertComponent,
     SuccessAlertComponent,
-    UsernameTaskComponent
+    UsernameTaskComponent,
+    PasswordComponent
   ],
   imports: [
     BrowserModule,
